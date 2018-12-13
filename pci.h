@@ -1,14 +1,3 @@
-/*
-Version: 2018.11.13
-Date:    2018-11-13 03:15:01
-*/
-/*
-* Если поля Version и Date выше существенно отличаются от текущей даты - самое
-* время скачать актуальную версию файла pci.ids с http://pci-ids.ucw.cz/v2.2/pci.ids
-* и при помощи idsparser.jar заново сгенерировать необходимые *.h-файлы.
-* Подробная инструкция - в файле README.
-*/
-
 typedef struct __PCI_VENTABLE
 {
 	unsigned short VendorId;
@@ -1974,7 +1963,7 @@ PCI_VENTABLE PciVenTable[] =
 	{0x270f, "Chaintech Computer Co. Ltd"},
 	{0x2711, "AVID Technology Inc."},
 	{0x2955, "Connectix Virtual PC"},
-	{0x2a15, "3D Vision(???)"},
+	{0x2a15, "3D Vision()"},
 	{0x2bd8, "ROPEX Industrie-Elektronik GmbH"},
 	{0x3000, "Hansol Electronics Inc."},
 	{0x3112, "Satelco Ingenieria S.A."},
@@ -5561,7 +5550,7 @@ PCI_DEVTABLE PciDevTable[] =
 	{0x109e, 0x350, "Bt848 Video Capture"},
 	{0x109e, 0x351, "Bt849A Video capture"},
 	{0x109e, 0x369, "Bt878 Video Capture"},
-	{0x109e, 0x36c, "Bt879(??) Video Capture"},
+	{0x109e, 0x36c, "Bt879() Video Capture"},
 	{0x109e, 0x36e, "Bt878 Video Capture"},
 	{0x109e, 0x36f, "Bt879 Video Capture"},
 	{0x109e, 0x370, "Bt880 Video Capture"},

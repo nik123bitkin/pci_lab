@@ -1,0 +1,726 @@
+0:0:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 0C04, Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x6
+Class code: 0x60000
+Base class: 0x6 Bridge Device
+Subclass: 0 Host Bridge
+SRL PI: 0 None
+CLS: 0 bytes
+BARs:
+	Register #1: unused register
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0xe0
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: -
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 0C01, Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller
+Multiple functions: yes
+
+BIST: unavailable
+Multiple functions: yes
+
+Bridge
+
+Revision ID: 0x6
+Class code: 0x60400
+Base class: 0x6 Bridge Device
+Subclass: 0x4 PCI-to-PCI Bridge
+SRL PI: 0 Normal Decode
+CLS: 64 bytes
+BARs:
+	Register #1: unused register
+	Register #2: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x88
+Primary bus number: 0
+Secondary bus number: 0x1
+Subordinate bus number: 0x6
+I/O Base: 0x50
+I/O Limit: 0x50
+Memory base: 0xd000
+Memory limit: 0xd1f0
+Prefetchable memory base: 0xa001
+Prefetchable memory limit: 0xbff1
+	Prefetchable Upper Base: 0
+	Prefetchable Upper Limit: 0
+		IO Upper base: 0
+		IO Upper limit: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:2:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 0416, 4th Gen Core Processor Integrated Graphics Controller
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x6
+Class code: 0x30000
+Base class: 0x3 Display Controller
+Subclass: 0 VGA Compatible Controller
+SRL PI: 0 VGA Controller
+CLS: 0 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd200000
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xc000000
+		Prefetchable: yes
+	Register #4: unused register
+	Register #5: I/O space register
+		Address: 0x1800
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x90
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:3:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 0C0C, Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x6
+Class code: 0x40300
+Base class: 0x4 Multimedia Device
+Subclass: 0x3 Audio Device
+SRL PI: 0 None
+CLS: 64 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd271000
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x50
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:14:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C31, 8 Series/C220 Series Chipset Family USB xHCI
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x5
+Class code: 0xc0330
+Base class: 0xc Serial Bus Controller
+Subclass: 0x3 USB (Universal Serial Bus)
+SRL PI: 0x30 XHCI (USB3) Controller
+CLS: 0 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd270000
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x70
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:16:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C3A, 8 Series/C220 Series Chipset Family MEI Controller #1
+Multiple functions: yes
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: yes
+
+Not bridge
+
+Revision ID: 0x4
+Class code: 0x78000
+Base class: 0x7 Simple Communications Controller
+Subclass: 0x80 Other
+SRL PI: 0 None
+CLS: 0 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd271800
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x50
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1A:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C2D, 8 Series/C220 Series Chipset Family USB EHCI #2
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x5
+Class code: 0xc0320
+Base class: 0xc Serial Bus Controller
+Subclass: 0x3 USB (Universal Serial Bus)
+SRL PI: 0x20 EHCI (USB2) Controller
+CLS: 0 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 32 bit address space
+		Address: 0xd271d00
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x50
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTB#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1B:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C20, 8 Series/C220 Series Chipset High Definition Audio Controller
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x5
+Class code: 0x40300
+Base class: 0x4 Multimedia Device
+Subclass: 0x3 Audio Device
+SRL PI: 0 None
+CLS: 64 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd271400
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x50
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1C:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C10, 8 Series/C220 Series Chipset Family PCI Express Root Port #1
+Multiple functions: yes
+
+BIST: unavailable
+Multiple functions: yes
+
+Bridge
+
+Revision ID: 0xd5
+Class code: 0x60400
+Base class: 0x6 Bridge Device
+Subclass: 0x4 PCI-to-PCI Bridge
+SRL PI: 0 Normal Decode
+CLS: 64 bytes
+BARs:
+	Register #1: unused register
+	Register #2: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x40
+Primary bus number: 0
+Secondary bus number: 0x7
+Subordinate bus number: 0x7
+I/O Base: 0x20
+I/O Limit: 0x20
+Memory base: 0x9fb0
+Memory limit: 0x9fc0
+Prefetchable memory base: 0x9fd1
+Prefetchable memory limit: 0x9fe1
+	Prefetchable Upper Base: 0
+	Prefetchable Upper Limit: 0
+		IO Upper base: 0
+		IO Upper limit: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1C:1
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C12, 8 Series/C220 Series Chipset Family PCI Express Root Port #2
+Multiple functions: yes
+
+BIST: unavailable
+Multiple functions: yes
+
+Bridge
+
+Revision ID: 0xd5
+Class code: 0x60400
+Base class: 0x6 Bridge Device
+Subclass: 0x4 PCI-to-PCI Bridge
+SRL PI: 0 Normal Decode
+CLS: 64 bytes
+BARs:
+	Register #1: unused register
+	Register #2: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x40
+Primary bus number: 0
+Secondary bus number: 0x8
+Subordinate bus number: 0x8
+I/O Base: 0x40
+I/O Limit: 0x40
+Memory base: 0xd260
+Memory limit: 0xd260
+Prefetchable memory base: 0xfff1
+Prefetchable memory limit: 0x1
+	Prefetchable Upper Base: 0
+	Prefetchable Upper Limit: 0
+		IO Upper base: 0
+		IO Upper limit: 0
+Interrupt pin: INTB#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1C:2
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C14, 8 Series/C220 Series Chipset Family PCI Express Root Port #3
+Multiple functions: yes
+
+BIST: unavailable
+Multiple functions: yes
+
+Bridge
+
+Revision ID: 0xd5
+Class code: 0x60400
+Base class: 0x6 Bridge Device
+Subclass: 0x4 PCI-to-PCI Bridge
+SRL PI: 0 Normal Decode
+CLS: 64 bytes
+BARs:
+	Register #1: unused register
+	Register #2: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x40
+Primary bus number: 0
+Secondary bus number: 0x9
+Subordinate bus number: 0x9
+I/O Base: 0x30
+I/O Limit: 0x30
+Memory base: 0xd250
+Memory limit: 0xd250
+Prefetchable memory base: 0xfff1
+Prefetchable memory limit: 0x1
+	Prefetchable Upper Base: 0
+	Prefetchable Upper Limit: 0
+		IO Upper base: 0
+		IO Upper limit: 0
+Interrupt pin: INTC#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1C:4
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C18, 8 Series/C220 Series Chipset Family PCI Express Root Port #5
+Multiple functions: yes
+
+BIST: unavailable
+Multiple functions: yes
+
+Bridge
+
+Revision ID: 0xd5
+Class code: 0x60400
+Base class: 0x6 Bridge Device
+Subclass: 0x4 PCI-to-PCI Bridge
+SRL PI: 0 Normal Decode
+CLS: 64 bytes
+BARs:
+	Register #1: unused register
+	Register #2: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x40
+Primary bus number: 0
+Secondary bus number: 0xa
+Subordinate bus number: 0xa
+I/O Base: 0xf0
+I/O Limit: 0
+Memory base: 0xd240
+Memory limit: 0xd240
+Prefetchable memory base: 0xfff1
+Prefetchable memory limit: 0x1
+	Prefetchable Upper Base: 0
+	Prefetchable Upper Limit: 0
+		IO Upper base: 0
+		IO Upper limit: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1D:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C26, 8 Series/C220 Series Chipset Family USB EHCI #1
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x5
+Class code: 0xc0320
+Base class: 0xc Serial Bus Controller
+Subclass: 0x3 USB (Universal Serial Bus)
+SRL PI: 0x20 EHCI (USB2) Controller
+CLS: 0 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 32 bit address space
+		Address: 0xd271c00
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x50
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1F:0
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C49, HM86 Express LPC Controller
+Multiple functions: yes
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: yes
+
+Not bridge
+
+Revision ID: 0x5
+Class code: 0x60100
+Base class: 0x6 Bridge Device
+Subclass: 0x1 ISA Bridge
+SRL PI: 0 None
+CLS: 0 bytes
+BARs:
+	Register #1: unused register
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0xe0
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: -
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1F:2
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C03, 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x5
+Class code: 0x10601
+Base class: 0x1 Mass Storage Controller
+Subclass: 0x6 Serial ATA
+SRL PI: 0x1 AHCI 1.0
+CLS: 0 bytes
+BARs:
+	Register #1: I/O space register
+		Address: 0x1822
+	Register #2: I/O space register
+		Address: 0x1825
+	Register #3: I/O space register
+		Address: 0x1820
+	Register #4: I/O space register
+		Address: 0x1824
+	Register #5: I/O space register
+		Address: 0x1818
+	Register #6: Memory space register
+		Address range of memory block: any position in 32 bit address space
+		Address: 0xd271b00
+		Prefetchable: no
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x80
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTB#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+0:1F:3
+Vendor ID: 8086, Intel Corporation
+Device ID: 8C22, 8 Series/C220 Series Chipset Family SMBus Controller
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3978
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x5
+Class code: 0xc0500
+Base class: 0xc Serial Bus Controller
+Subclass: 0x5 SMBus
+SRL PI: 0 None
+CLS: 0 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd271900
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: I/O space register
+		Address: 0x1810
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTC#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+8:0:0
+Vendor ID: 10EC, Realtek Semiconductor Co., Ltd.
+Device ID: B723, RTL8723BE PCIe Wireless Network Adapter
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0xb736
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0
+Class code: 0x28000
+Base class: 0x2 Network Controller
+Subclass: 0x80 Other
+SRL PI: 0 None
+CLS: 64 bytes
+BARs:
+	Register #1: I/O space register
+		Address: 0x1000
+	Register #2: unused register
+	Register #3: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd260000
+		Prefetchable: no
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x40
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+9:0:0
+Vendor ID: 10EC, Realtek Semiconductor Co., Ltd.
+Device ID: 8168, RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x380d
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x10
+Class code: 0x20000
+Base class: 0x2 Network Controller
+Subclass: 0 Ethernet Controller
+SRL PI: 0 None
+CLS: 64 bytes
+BARs:
+	Register #1: I/O space register
+		Address: 0xc00
+	Register #2: unused register
+	Register #3: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd250400
+		Prefetchable: no
+	Register #4: unused register
+	Register #5: Memory space register
+		Address range of memory block: any position in 64 bit address space
+		Address: 0xd250000
+		Prefetchable: no
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x40
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
+A:0:0
+Vendor ID: 10EC, Realtek Semiconductor Co., Ltd.
+Device ID: 5249, RTS5249 PCI Express Card Reader
+Multiple functions: no
+Subsystem Vendor ID: 0x17aa
+	SubVendorName: Lenovo
+Subsystem Device ID: 0x3801
+	SubDeviceName: Unknown
+
+BIST: unavailable
+Multiple functions: no
+
+Not bridge
+
+Revision ID: 0x1
+Class code: 0xff0000
+Base class: 0xff Unknown
+Subclass: 0 Device Does Not Fit In Class Codes
+SRL PI: 0 UDF
+CLS: 64 bytes
+BARs:
+	Register #1: Memory space register
+		Address range of memory block: any position in 32 bit address space
+		Address: 0xd240000
+		Prefetchable: no
+	Register #2: unused register
+	Register #3: unused register
+	Register #4: unused register
+	Register #5: unused register
+	Register #6: unused register
+Expansion ROM BAR: address space is disabled or virtualized
+Capabilities list: available, pointer value: 0x40
+Cardbus Card IS Pointer: in device's device-specific configuration space
+Min GNT: 0
+Max latency: 0
+Interrupt pin: INTA#
+Interrupt line: IRQ0/APIC-Connected/no line
+-------------------------
